@@ -1,0 +1,13 @@
+.sold-out {
+  font-size: 12px;
+  background: #e9e9e963;
+  padding: 6px 11px;
+  border-radius: 14px;
+  color: #673ab7;
+  font-weight: 900;
+  letter-spacing: 0.5px;
+}
+
+li {
+  margin: 20px 0;
+}
