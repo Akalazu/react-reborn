@@ -64,7 +64,7 @@ export default function Todo() {
       <h2>Scheduled Tasks</h2>
       <ul>
         {ongoingTask.length === 0 ? (
-          <p className="text-gray-500">No tasks yet!</p>
+          <p>No tasks yet!</p>
         ) : (
           ongoingTask.map((eachTask, index) => (
             <li key={eachTask.id} className="text-gray-800 py-1">
@@ -81,7 +81,7 @@ export default function Todo() {
       <h2>Completed Tasks</h2>
       <ul>
         {completedTask.length === 0 ? (
-          <p className="text-gray-500">No tasks yet!</p>
+          <p>No tasks yet!</p>
         ) : (
           completedTask.map((task, index) => (
             <li key={task.id} className="text-gray-800 py-1">
